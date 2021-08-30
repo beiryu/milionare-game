@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="endGame" :class={display:showEnd}>
-      <h1 v-show="showEnd && win"> Có cái ĐB </h1>
+      <h1 v-show="showEnd && win"> You Win </h1>
       <h1 v-show="showEnd && !win"> You Lose </h1>
     </div> 
   </div>
